@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1511203872 source:f:\courses\cse\cse245\n-queen project\n-queen.cpp\main.cpp
+	"define.h"
+	"function.h"
+
+1511204719 f:\courses\cse\cse245\n-queen project\n-queen.cpp\define.h
+	<bits/stdc++.h>
+	<windows.h>
+	<conio.h>
+
+1511205044 f:\courses\cse\cse245\n-queen project\n-queen.cpp\function.h
+
+1511203872 source:f:\courses\cse\cse245\n-queen project\n-queen\main.cpp
+	"define.h"
+	"function.h"
+
+1512456075 f:\courses\cse\cse245\n-queen project\n-queen\define.h
+	<bits/stdc++.h>
+	<windows.h>
+	<conio.h>
+
+1512415694 f:\courses\cse\cse245\n-queen project\n-queen\function.h
+

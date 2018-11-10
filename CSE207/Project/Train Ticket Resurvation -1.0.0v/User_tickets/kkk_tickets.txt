@@ -1,0 +1,16 @@
+|---------------------------------------|
+|          Bangladesh Railway           |
+|---------------------------------------|
+| Train Name:             Tista_Express |
+| Train ID:                        T-03 |
+|---------------------------------------|
+|       Departure Time Per Station      |
+| Dhaka:                        01:35pm |
+| Uttara:                       02:20pm |
+| Jaidevpur:                    03:30pm |
+| Goforgon:                     04:30pm |
+| Mymensingh:                   05:30pm |
+|---------------------------------------|
+| Total Seats:                        2 |
+| Total Amount:        [ 180 x 2] = 360 |
+|---------------------------------------|

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1491155443 source:g:\courses\cse\cse205\projects\propositional logic calculator\project\main.cpp
+	"header.h"
+	"variables.h"
+	"functions.h"
+
+1491155715 g:\courses\cse\cse205\projects\propositional logic calculator\project\header.h
+	<bits/stdc++.h>
+
+1491155883 g:\courses\cse\cse205\projects\propositional logic calculator\project\functions.h
+
+1491155456 g:\courses\cse\cse205\projects\propositional logic calculator\project\variables.h
+

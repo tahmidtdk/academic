@@ -1,0 +1,21 @@
+create or replace trigger deposit_amount
+before insert on my_deposit 
+for each row
+declare
+result number;
+old_balance number;
+user_name varchar2(20);
+current_time timestamp;
+begin
+select balance into old_balance from my_account 
+   where id = :new.account_id;
+result := old_balance + :new.deposit_amount;
+select user into user_name from dual;
+:new.deposit_user := user_name;
+select current_timestamp into current_time from dual;
+:new.deposit_date := current_time;
+update my_account 
+set balance = result 
+where id = :new.account_id;
+end;
+/

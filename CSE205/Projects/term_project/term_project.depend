@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1491504392 source:g:\courses\cse\cse205\projects\term_project\main.cpp
+	"headerfile.h"
+	"globalvariables.h"
+	"function.h"
+
+1490225190 g:\courses\cse\cse205\projects\term_project\headerfile.h
+	<bits/stdc++.h>
+	<windows.h>
+	<conio.h>
+
+1491507086 g:\courses\cse\cse205\projects\term_project\globalvariables.h
+
+1491508877 g:\courses\cse\cse205\projects\term_project\function.h
+
+1491504392 source:f:\courses\cse\cse205\projects\term_project\main.cpp
+	"headerfile.h"
+	"globalvariables.h"
+	"function.h"
+
+1490225190 f:\courses\cse\cse205\projects\term_project\headerfile.h
+	<bits/stdc++.h>
+	<windows.h>
+	<conio.h>
+
+1491507086 f:\courses\cse\cse205\projects\term_project\globalvariables.h
+
+1491508877 f:\courses\cse\cse205\projects\term_project\function.h
+

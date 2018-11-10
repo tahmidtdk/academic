@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1470656009 source:f:\cse\cse107\term project\main.cpp
+	<windows.h>
+	<conio.h>
+	"shares.h"
+	"user.h"
+	"extra_func.h"
+
+1470638349 f:\cse\cse107\term project\shares.h
+	<bits/stdc++.h>
+
+1470720027 f:\cse\cse107\term project\extra_func.h
+
+1470641786 f:\cse\cse107\term project\user.h
+
+1470215472 source:f:\my projects\cpp\time.cpp
+	<bits/stdc++.h>
+
+1470656009 source:g:\courses\cse\cse107\term project\main.cpp
+	<windows.h>
+	<conio.h>
+	"shares.h"
+	"user.h"
+	"extra_func.h"
+
+1470638349 g:\courses\cse\cse107\term project\shares.h
+	<bits/stdc++.h>
+
+1470641786 g:\courses\cse\cse107\term project\user.h
+
+1488271275 g:\courses\cse\cse107\term project\extra_func.h
+
+1490175685 source:f:\courses\cse\cse107\term project\main.cpp
+	<windows.h>
+	<conio.h>
+	"shares.h"
+	"user.h"
+	"extra_func.h"
+
+1470638349 f:\courses\cse\cse107\term project\shares.h
+	<bits/stdc++.h>
+
+1470641786 f:\courses\cse\cse107\term project\user.h
+
+1488271275 f:\courses\cse\cse107\term project\extra_func.h
+

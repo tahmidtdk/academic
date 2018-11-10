@@ -1,0 +1,41 @@
+create table my_deposit( id number,
+account_id number,
+deposit_amount number not null,
+deposit_date timestamp,
+deposit_user varchar2(20),
+constraint my_deposit_pk primary key (id),
+constraint my_deposit_fk foreign key (account_id) references my_account(id)); 
+ 
+create table my_withdraw( id number,
+account_id number,
+withdraw_amount number not null,
+withdraw_date timestamp,
+withdraw_user varchar2(20),
+constraint my_withdraw_pk primary key (id),
+constraint my_withdraw_fk foreign key (account_id) references my_account(id)); 
+
+create or replace trigger deposit_before_insert
+before insert
+on my_deposit
+for each row
+declare
+	v_username varchar2(100);
+	current_balance number := 0;
+	updated_balance number := 0;
+begin
+	-- find the current balance of that account from account table
+	select balance into current_balance from my_account where id = :new.account_id;
+
+	-- add the deposit amount with the current balance
+	updated_balance := current_balance + :new.deposit_amount;
+
+	-- update the account table for that account with the updated balance
+	update my_account 
+	set balance = updated_balance
+	where id = :new.account_id;
+
+	:new.deposit_date := sysdate;
+	select user into v_username from dual;
+	:new.deposit_user := v_username;
+end;
+/

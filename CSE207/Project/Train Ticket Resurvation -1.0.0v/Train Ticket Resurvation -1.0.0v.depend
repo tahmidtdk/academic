@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1502253480 source:f:\courses\cse\cse207\project\train ticket resurvation -1.0.0v\main.cpp
+	"header.h"
+	"stStack.h"
+	"stQueue.h"
+	"functions.h"
+
+1502122293 f:\courses\cse\cse207\project\train ticket resurvation -1.0.0v\header.h
+	<bits/stdc++.h>
+	<windows.h>
+	<conio.h>
+
+1501183867 f:\courses\cse\cse207\project\train ticket resurvation -1.0.0v\stlist.h
+
+1502035930 f:\courses\cse\cse207\project\train ticket resurvation -1.0.0v\stqueue.h
+
+1502248720 f:\courses\cse\cse207\project\train ticket resurvation -1.0.0v\functions.h
+
+1501769970 f:\courses\cse\cse207\project\train ticket resurvation -1.0.0v\ststack.h
+

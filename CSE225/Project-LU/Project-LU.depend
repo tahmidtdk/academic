@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1491759395 source:g:\courses\cse\cse225\project-lu\main.cpp
+	"header.h"
+	"variables.h"
+	"functions.h"
+
+1491756451 g:\courses\cse\cse225\project-lu\header.h
+	<bits/stdc++.h>
+	<windows.h>
+	<conio.h>
+
+1491934404 g:\courses\cse\cse225\project-lu\functions.h
+
+1491758082 g:\courses\cse\cse225\project-lu\variables.h
+
+1491759395 source:f:\courses\cse\cse225\project-lu\main.cpp
+	"header.h"
+	"variables.h"
+	"functions.h"
+
+1491756451 f:\courses\cse\cse225\project-lu\header.h
+	<bits/stdc++.h>
+	<windows.h>
+	<conio.h>
+
+1491758082 f:\courses\cse\cse225\project-lu\variables.h
+
+1491934404 f:\courses\cse\cse225\project-lu\functions.h
+

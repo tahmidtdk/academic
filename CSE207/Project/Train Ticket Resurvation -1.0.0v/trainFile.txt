@@ -1,0 +1,26 @@
+Tista_Express T-01 300 4 180
+Dhaka 01:30pm
+Uttara 02:00pm
+Gazipur 03:00pm
+Mymensingh 04:30pm
+Agnibina_Express T-02 422 5 200
+Dhaka 09:30am
+Uttara 10:00am
+Gazipur 11:00am
+Mymensingh 01:30pm
+Jamalpur 03:30pm
+SonarBangla_Express T-03 400 4 450
+Dhaka 07:30am
+Uttara 08:00am
+Comilla 11:00am
+Chittagong 03:30pm
+Godhuli_Express T-04 350 4 420
+Dhaka 05:30pm
+Uttara 06:00pm
+Comilla 08:00pm
+Chittagong 10:30pm
+Turna_Express T-05 447 4 450
+Dhaka 11:30pm
+Uttara 12:00am
+Comilla 02:00am
+Chittagong 04:40am

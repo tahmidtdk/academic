@@ -1,0 +1,31 @@
+|---------------------------------------|
+|          Bangladesh Railway           |
+|---------------------------------------|
+| Train Name:          Agnibina_Express |
+| Train ID:                        T-02 |
+|---------------------------------------|
+|       Departure Time Per Station      |
+| Dhaka:                        09:30am |
+| Uttara:                       10:00am |
+| Gazipur:                      11:00am |
+| Mymensingh:                   01:30pm |
+| Jamalpur:                     03:30pm |
+|---------------------------------------|
+| Total Seats:                        3 |
+| Total Amount:        [ 200 x 3] = 600 |
+|---------------------------------------|
+|---------------------------------------|
+|          Bangladesh Railway           |
+|---------------------------------------|
+| Train Name:             Turna_Express |
+| Train ID:                        T-05 |
+|---------------------------------------|
+|       Departure Time Per Station      |
+| Dhaka:                        11:30pm |
+| Uttara:                       12:00am |
+| Comilla:                      02:00am |
+| Chittagong:                   04:40am |
+|---------------------------------------|
+| Total Seats:                        3 |
+| Total Amount:        [ 450 x 3] = 1350 |
+|---------------------------------------|
