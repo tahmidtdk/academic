@@ -1,60 +1,96 @@
-from array import *
-from random import *
-# data initialization
-numOfqueens = 8
-numOfData = 4
-dataSetArray = [[2, 4, 7, 4, 8, 5, 5, 2], [3, 2, 7, 5, 2, 4, 1, 1], [2, 4, 4, 1, 5, 1, 2, 4], [2, 4, 7, 4, 8, 5, 5, 2]]
+#!/usr/bin/env python
+
+import random
+import string
+
+maxFitness = 28
+dataSetarray = [[2, 4, 7, 4, 8, 5, 5, 2], [3, 2, 7, 5, 2, 4, 1, 1], [2, 4, 4, 1, 5, 1, 2, 4]]
+generation = 1
+
+def print_data(x):
+    print(str(x)+" Fitness: "+str(fitness(x)))
+  
+
+def fitness(individual):
+    horizontal_collisions = sum([individual.count(queen)-1 for queen in individual])/2
+  
+    n = len(individual)
+    left_diagonal = [0] * 2*n
+    right_diagonal = [0] * 2*n
+    for i in range(n):
+        left_diagonal[i + individual[i] - 1] += 1
+        right_diagonal[len(individual) - i + individual[i] - 2] += 1
+
+    diagonal_collisions = 0
+    for i in range(2*n-1):
+        counter = 0
+        if left_diagonal[i] > 1:
+            counter += left_diagonal[i]-1
+        if right_diagonal[i] > 1:
+            counter += right_diagonal[i]-1
+        diagonal_collisions += counter / (n-abs(i-n+1))
+    
+    return int(maxFitness - (horizontal_collisions + diagonal_collisions))
+
+def probability(individual, fitness):
+    return fitness(individual) / maxFitness
+
+def random_pick(dataSetarray, probabilities):
+    dataSetarrayWithProbabilty = zip(dataSetarray, probabilities)
+    total = sum(w for c, w in dataSetarrayWithProbabilty)
+    r = random.uniform(0, total)
+    upto = 0
+    for c, w in zip(dataSetarray, probabilities):
+        if upto + w >= r:
+            return c
+        upto += w
+  
+        
+def swap(x, y):
+    n = len(x)
+    c = random.randint(0, n - 1)
+    return x[0:c] + y[c:n]
+
+def mutate(x):
+    n = len(x)
+    c = random.randint(0, n - 1)
+    m = random.randint(1, n)
+    x[c] = m
+    return x
 
 
-def crossOver(numOfdata):
-    global numOfqueens, dataSetArray
+def crossover(dataSetarray, probabilities):
+    x = random_pick(dataSetarray, probabilities)
+    y = random_pick(dataSetarray, probabilities)
+    new_data = swap(x, y)
+    return new_data
 
-    for indx in range(0, numOfdata, 2):
-        randNum = randint(1, numOfqueens-1)
-        if(indx<len(dataSetArray)):
-            # swapping elements of arrays
-            dataSetArray[indx][randNum:], dataSetArray[indx+1][randNum:] = dataSetArray[indx+1][randNum:], dataSetArray[indx][randNum:]
-
-
-def mutation(numOfdata):
-    global numOfqueens, dataSetArray
-    for indx in range(0, numOfdata):
-        randNum = randint(1, numOfqueens-1)
-        while(randNum==dataSetArray[indx][randNum]):
-            randNum = randint(1, numOfqueens)
-        dataSetArray[indx][randNum] = randNum
-
-
-
-def fitnessCalculation(numOfdata, ind_num=0):
-    global numOfqueens, dataSetArray
-    # making a grid
-    grid = []
-    for i in range(0, numOfqueens):
-        grid.append([])
-        for j in range(0, numOfqueens):
-            if(j==dataSetArray[ind_num][i]-1):
-                grid[i].append(1)
-            else:
-                grid[i].append(0)
-
-
+def genetic_queen(dataSetarray, fitness):
+    mutation_probability = 0.03
+    new_dataSetarray = []
+    probabilities = [probability(n, fitness) for n in dataSetarray]
+    for i in range(len(dataSetarray)):
+        child = crossover(dataSetarray, probabilities)
+        if random.random() < mutation_probability:
+            child = mutate(child)
+        print_data(child)
+        new_dataSetarray.append(child)
+        if fitness(child) == 28: break
+    return new_dataSetarray
 
 
 def main():
-    global numOfData, numOfqueens, dataSetArray
-    if(numOfData<2):
-        print("Number of data is less then two, Program terminated.")
-        return
-    if(numOfData%2==1):
-        # odd number of dataset. need to copy one set and make dataset even
-        dataSetArray.insert(numOfData, dataSetArray[0])
-        numOfData+=1
+    global dataSetarray, generation
+    while not 28 in [fitness(x) for x in dataSetarray]:
+        print("=== Generation {} ===".format(generation))
+        dataSetarray = genetic_queen(dataSetarray, fitness)
+        print("Maximum fitness = {}".format(max([fitness(n) for n in dataSetarray])))
+        generation += 1
 
-    crossOver(numOfData)
-    print("After crossover: "+str(dataSetArray))
-    mutation(numOfData)
-    print("After mutation: "+str(dataSetArray))
-    fitnessCalculation(numOfData)
+    print("Solved in Generation {}!".format(generation-1))
+    for x in dataSetarray:
+        if fitness(x) == 28:
+            print_data(x)
+
 
 main()
