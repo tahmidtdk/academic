@@ -1,0 +1,4 @@
+﻿1.Using microprogram as instructions directly: Consider that there is no “instruction set”, no program counter (but microprogram counter), no instruction fetch in the normal sense. Your machine and “program” is THE microprogram itself. You have to add some fields into microprogram word such as: ADD R0, R1, R2 which holds the appropriate values.
+
+
+Ref: http://www.techep.csi.cuny.edu/~zhangs/v.html

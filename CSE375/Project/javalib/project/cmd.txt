@@ -1,0 +1,3 @@
+antlr bash.g4
+javac bash*.java
+grun bash expression input.txt -gui

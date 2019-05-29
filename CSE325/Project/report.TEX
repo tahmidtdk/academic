@@ -1,0 +1,108 @@
+
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[a4paper, width=150mm, top=25mm, bottom=25mm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[L]{Powerpuff Unix Shell}
+\fancyhead[R]{}
+
+\usepackage{listings}
+\graphicspath{ {./images/} }
+\begin{document}
+
+ \begin{titlepage}
+
+    \begin{center}
+        \line(1, 0){300}\\
+        [0.20in]
+        \huge{\bfseries Powerpuff Unix Shell} \\
+        \textsc{\Large The Unix Shell}\\
+        \line(1, 0){250}\\
+        \vspace{1mm}
+        
+    \end{center}
+    
+    \begin{center}
+        \textbf{Course Title:} Operating System\\
+        \textbf{Course Code:} CSE325\\
+        \vspace{10mm}
+        \huge{Project Report}
+    \end{center}
+    
+    \vspace{20mm}
+    \textbf{Submitted To} 
+    
+    \begin{center}
+        Md. Ashraful Islam (Emon) \\
+        Lecturer, \\
+        Department of Computer Science \& Engineering, \\
+        East West University, Bangladesh.
+    \end{center}
+    \vspace{20mm}
+    \hspace{5mm}
+    \textbf{Author}
+    \begin{flushleft}
+        \hspace{40mm}
+        Shaykh Siddique(2016-1-60-053)\\ \hspace{40mm}
+        Thajiba Tabassum(2016-1-60-053),\\ \hspace{40mm}
+        S. M. Saikat Hossain(2016-1-60-053),\\ \hspace{40mm}
+        Md.Jadid Mostafiz(2016-1-60-053),\\ \hspace{40mm}
+        Shaik Md. Ibnay-Momen(2016-1-60-053),\\ \hspace{40mm}
+        Jannatul Ferdous Sorna(2016-1-60-053)
+    \end{flushleft}
+
+    \end{titlepage}
+    
+    \section{Introduction}
+    A Shell provides us with a command line interface to the Unix system. It gathers input from you and executes programs based on that input. When a program finishes executing, it displays that program's output.\\
+    Shell is an environment in which we can run our commands, programs, and shell scripts. There are different flavors of a shell, just as there are different flavors of operating systems. Each flavor of shell has its own set of recognized commands and functions.\\
+    Shells are mostly used to make control of remote connection of a server.
+
+    \section{Software Description and Facilities}
+    This Software is just a sample Unix Shell developed in \textbf{C}. 
+    \subsection{Parsing}
+    As We are working with command line, we must need to parse all the commands. A single command will be separated by semicolon ';' and in a single command - Command words and parameters are separated by space. \\ 
+    We used a parsing simulation software named \textbf{ANTLR} to simulate a basic parse tree. 
+    \vspace{10mm}\\   %paragraph
+    \textbf{Input Commands:}
+    \begin{lstlisting}[language=bash]
+        cd Desktop/shell;
+        gedit;
+        touch file1 file2 file3;
+        ls -l;
+        cat doc1.txt doc3.txt;
+    \end{lstlisting}
+    \vspace{10mm}   %paragraph
+    \textbf{Parse Tree} \\
+    \includegraphics[width=\textwidth]{antlr4_parse_tree.png}
+    
+    \subsection{Implementation of Commands}
+    \vspace{5mm}
+    \textbf{cd [path]}\\
+    \verb|cd| is a command of changing directory. It expects one parameter, the path of the directory to change in. Using a function called \verb|chdir(directory)|, where parameter directory is the path.
+    \vspace{5mm}\\
+    \textbf{ls}\\
+    \verb|ls| is a command which will list all the files and directories of current working directory.
+    Opening current directory, read and print all files and folder names. Using \verb|opendir(param)|, where  param is the path of directory.\\ \\
+    For reading files and folder names,  \verb|readdir(dr)|, where dr is the current directory object and this function is return the names of all files and folders.
+     \vspace{5mm}\\
+    \textbf{mkdir [folder]}\\
+    Using a function \verb|mkdir(param1, param2)|, where parameter one is the name of new folder and parameter two is the permission of this folder. Here we use the permission $(777)$ read, write, and execute.
+     \vspace{5mm}\\
+    \textbf{touch [file]}\\
+    Creating a file just in write mode. Expecting one or more parameter.
+    \vspace{5mm}\\
+    \textbf{cat [file]}\\
+    Open all of those files, read and print in console. Expecting one or more parameter.
+    \vspace{5mm}\\
+    \textbf{echo [string]}\\
+    Just printing all strings. Expecting one or more parameter.
+    \vspace{5mm}\\
+    \textbf{cp [source] [destination]}\\
+    Opening the source file, load all the data into program. Then go to destination file, create that destination file and write all data.
+    \vspace{5mm}\\
+    \textbf{exit}\\
+    Command exit is used to terminate the program.
+
+\end{document}}

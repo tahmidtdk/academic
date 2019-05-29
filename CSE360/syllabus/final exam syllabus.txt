@@ -1,0 +1,55 @@
+For Final Exam:
+
+Exercises for practice:
+
+Chapter 11 (page 429): PROBLEMS 11.1, 11.2, 11.3, 11.7, 11.11, 11.12, 11.13
+
+CHAPTER 12 (Page 434): PROBLEMS 12.3, 12.4, 12.7, 12.8
+
+CHAPTER 13 (Page 520): PROBLEMS 13.6, 13.7
+
+CHAPTER 14 (Page 555): PROBLEMS 14.2
+
+CHAPTER 15 (Page 585): PROBLEMS 15.3
+
+CHAPTER 16 (Page 625): PROBLEMS 16.4, 16.5, 16.8
+
+
+Short suggestion for quiz & final exam...
+
+📚CPU Structure and Function:
+
+* Data Flow Diagram (Fetch, Indirect, Interrupt, Execute) 
+* Two-Stage Instruction Pipelining, Six-Stage Pipelining (with Branch & without Branch)
+
+📚 Control Unit Operation:
+
+* Diagram & Micro operation (Fetch, Indirect, Interrupt, Execute) 
+* Execute Cycle (ADD, ISA, BSA) 
+* Control Signals Example: Data paths and Control Signals 
+* Micro Operations and Control Signals (Table 16.1)
+
+📚 Reduced Instruction Set Computers:
+
+* Difference between RISC vs. CISC
+* How to optimize number of registers in RISC processor? (using graph coloring algorithm) 
+* Basic Pipelining vs. Super Pipelining vs. Super Scalar (Comparison, mathematical description) 
+* Parallel Organization (Figure with explanation) 
+* Advantage, Criteria & block diagram of SMP
+
+📚 Addressing Modes and Formats:
+
+* Advantages, Disadvantages, Algorithm & Block diagram of (Immediate, Direct, Indirect, Register addressing, Register Indirect, Displacement & Stack addressing)
+
+-> Extra & important for final:
+
+** Micro Control Functioning of Micro Processor 
+** RISC Pipelining
+
+-> Updated Exercises:
+
+Chapter 11: 11.1, 11.2, 11.3, 11.13
+
+Chapter 12: 12.7, 12.8, 12.9, 12.10
+
+Charter 15: 15.3

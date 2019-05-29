@@ -1,0 +1,8 @@
+Important problems for practice: Mid-II and Class Test-2:
+
+Page 214: CHAPTER 6 / EXTERNAL MEMORY - 
+Problems (6.1 to 6.5)
+Page 256: CHAPTER 7 / INPUT/OUTPUT - 
+Problems (7.11 to 7.17)
+Page 386: CHAPTER 10 / INSTRUCTION SETS: CHARACTERISTICS AND FUNCTIONS -
+Problems (10.6, 10.18 to 10.22)
