@@ -1,0 +1,13 @@
+h2 {font-family:georgia; color:red; text-align:center;}
+
+p { 
+	color:blue; 
+	font-style:italic;
+	text-align:center;
+}
+
+body {
+	background-image:url('picture.gif');
+  	background-repeat:repeat-x;
+	background-color:white;
+ }
