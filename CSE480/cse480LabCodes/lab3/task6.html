@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 1</title>
+	<script type="text/javascript" src="js/alljs.js"></script>
+</head>
+<body>
+	<span>Date of birth: </span><input type="date" name="" id="dob"><br><br>
+	<input type="submit" name="" value="calculate age" onclick="getAge(new Date(document.getElementById('dob').value));"><br><br>
+	<span id="task6_txt"></span>
+<script>
+	function getAge(d1){
+		var today = new Date();
+		var mil_today = today.getTime();
+		var mil_dob = d1.getTime();
+		
+	    var diff = mil_today - mil_dob;
+	    var age= Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
+
+	    document.getElementById("task6_txt").innerHTML = "Age: "+age +" Year";
+	}
+	
+</script>
+</body>
+</html>
