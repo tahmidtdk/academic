@@ -1,0 +1,14 @@
+1.	How often do you use biometric authentication system?
+2.	Are you using a biometric authentication system in your personal life?
+3.	If you are using a biometric authentication system, then which system do you prefer to use? (sub q1) (fingerprint/irish/voice)
+4.	Suppose you are using a biometric authentication system; do you feel safe to give away your biometric information? (box type) (koto tuku safe 1-5 rating)
+5.	Do you think that the company which is storing your biometric information is giving you the confirmation that your information will not be compromised?
+6.	Have you ever faced following situation while using a biometric authentication system.?
+7.	How much do you rate biometric system from the traditional authentication system??(password and biometric)
+8.	Do you think you have the right to remove your biometric information from their database?
+9.	Based on your using experience which biometric authentication system is more convenient to use?(this ques is a sloppy one)
+10.	How you will evaluate a biometric data storage in terms of security? (msg box)
+Or 
+What do think what countermeasure should take to make the biometric data storage safer?	
+11.	Have you ever faced any problem in registering a mobile sim card? If you have faced problem, then what kind of problem you faced?
+(cloning/unauthorized authentication etc)

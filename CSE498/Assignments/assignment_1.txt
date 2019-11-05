@@ -1,0 +1,23 @@
+1. What am I really interested about?
+	+ Security and Privacy concern of Biometric Information System.
+
+
+2. What do I want to know better or understand better?
+	+ What are the uses of biometric information in computing ?
+	+ How the biometric information are stored in cloud/storage ?
+	+ What kind of biometric information systems are frequenty used ?
+
+
+3. What questions do I think are really important to be solved?
+	+ What kinds of data are usally stored ?
+	+ How can we solve the Security issues of biometric information system by setting rules and regulations ?
+	+ What about user security, is it secure or not ?
+
+4. Why is this going to be interested or important to others?
+	+ Biometrics is the technical word of body measurements. This information are the most unique identification of human. To ensure security biometric information systems are used every where. So the security & privacy must be clear and well-known to every one.
+
+5. Who will be interested in reading about what I found?
+	+ Now everyone use biometric systems in their daily life. The most common use of biometric systems are Fingerprint Scanner Systems, Face/Iris Recognition Systems and so on. So this will be helpfull for all kind of people.
+
+6. Does this reveal something that we didn't previously know?
+	+ Biometric System is a modern technology. So the improvement concern of security and privacy in biometric

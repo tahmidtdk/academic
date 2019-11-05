@@ -1,0 +1,102 @@
+Objective 01 : 
+1.	Do you know about the biometric system? 
+Answer: Yes/ No
+
+2.	Do you use any biometric system?
+Answer: Yes/ No
+
+3.	How frequently do you use biometric systems?
+Answer: Never/ Rarely/ Sometimes/ Often / Always
+
+4.	In which sectors do you use biometric systems?
+Answer: Job sector/ University/ SIM registration/ NID registration/ Passport Office 
+
+5.	Do you think these sectors use latest biometric systems? 
+Answer: Strongly Agree/ Agree/ Neutral/ Not Agree/ Strongly Not Agree. 
+
+6.	Do you think biometric system makes your life easier?
+Answer: Strongly Disagree/ Disagree/ Neutral/ Not Agree/ Strongly Not Agree.
+
+7.	Do you ever face any personal discomfort while using the systems? 
+Answer: Never/ Rarely/ Sometimes/ Often / Always.
+
+8.	Do you think biometric systems provide enough protection to safe your personal data?
+Answer: Strongly Agree/ Agree/ Neutral/ Not Agree/ Strongly Not Agree.
+
+9.	Do you think you have the privilege to update/ change/ remove/modify your personal data from the database? 
+Answer: Strongly Agree/ Agree/ Neutral/ Not Agree/ Strongly Not Agree.
+
+
+10.	Do you think there is possibility of using your information in other purpose?
+Answer: Strongly Agree/ Agree/ Neutral/ Not Agree/ Strongly Not Agree.
+
+
+11.	Do you think the system can authenticate accurately? 
+Answer: Strongly Agree/ Agree/ Neutral/ Not Agree/ Strongly Not Agree.
+
+
+
+
+Objective 02 
+
+12.	On the basis of your use, which biometric system would you prefer most?
+Answer: physical (face scan, fingerprint scan, hand palm scan, iris scan, DNA test) / Behavioral (typing keystroke/ signature validation/ voice detection)
+
+13.	How do you feel about face scan biometric system? 
+Answer: Good/ fair/ average/ better/ best 
+14.	How do you feel about fingerprint scan biometric system? 
+Answer: Good/ fair/ average/ better/ best 
+
+15.	How do you feel about hand palm scan biometric system? 
+Answer: Good/ fair/ average/ better/ best 
+
+16.	How do you feel about iris scan biometric system? 
+Answer: Good/ fair/ average/ better/ best 
+
+17.	How do you feel about DNA test biometric system? 
+Answer: Good/ fair/ average/ better/ best
+ 
+18.	How do you feel about typing keystroke biometric system? 
+Answer: Good/ fair/ average/ better/ best 
+
+19.	How do you feel about signature validation biometric system? 
+Answer: Good/ fair/ average/ better/ best 
+
+20.	How do you feel about voice detection biometric system? 
+Answer: Good/ fair/ average/ better/ best 
+
+21.	If any new biometric system launch with more security would you prefer to use the previous systems? 
+Answer: Never/ Rarely/ Sometimes/ Often / Always
+
+
+Objective 03 : 
+
+22.	Do you think the system can destroy/ corrupt your personal information? 
+Answer: Strongly Agree/ Agree/ Neutral/ Not Agree/ Strongly Not Agree.
+
+23.	Do you think it is appropriate to provide your personal identity to the systems? 
+Answer: Strongly Agree/ Agree/ Neutral/ Not Agree/ Strongly Not Agree.
+
+24.	How much do you trust biometric systems in terms of security? 
+Answer: Not trustworthy at all/ very trustworthy. 
+
+25.	Have you ever face any kind of security threat while using biometric system? 
+Answer: Yes/ No.
+
+26.	If you never face any kind of security threat but error in systems, what were those? Describe it briefly. 
+
+27.	Do you want to use more latest biometric systems?
+
+Answer: Yes/ No
+
+
+
+
+
+
+ 
+
+
+
+
+

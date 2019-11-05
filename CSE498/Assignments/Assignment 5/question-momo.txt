@@ -1,0 +1,49 @@
+Objective-1
+
+Ob1. Do you know about Biometric Systems?
+Dummy ans: Yes/No
+
+Ob1. How frequently you use biometric authtication security system ?
+Dummy ans: frequently/sometimes/rarely
+
+Ob1. When you get familiar with the system?
+Dummy ans: In shopping mall/ in institution/ airport etc
+
+Ob1. Do you feel comfortable when biometric system scans your Irish/finger prints/voice/samples?
+Dummy ans: yes/no/depends/
+
+Ob1. Does biometric system waste your time?
+Dummy ans: yes/no/neutral
+
+Ob1. What do you think about the data collection procedure of biometric systems?
+Dummy ans: here, it can be a message/comment box for public review.
+
+Ob1. Does biometric systems are reliable to give security of collected data? (Must ans this question, emn ekta option thakbe..ei question er ans na Kora chhara submit dya Jabe naa)
+Dummy ans: yes/no/highly disagree/agree etc. / Or numerical values thakbe.
+
+
+Objective-2
+
+Ob2. Which biometric system you prefer the most?
+Dummy ans: 1.Behavioral(signature/voice). 2. Physical (Irish/finger prints) etc.
+
+Ob2. What rate you give physical biometric systems according to below numerics?
+Dummy ans: 1- Strongly secure, 2-Good/fair, 3- Neutral, 4-Bad/worst
+
+Ob2. What rate you give Behavioral biometric systems according to below numerics?
+Dummy ans: 1- Strongly secure, 2-Good/fair, 3- Neutral, 4-Bad/worst
+
+Ob2. Does biometric systems ensure that they will give you ultra layer of security?
+Dummy ans: yes/no/don't know
+
+Ob2. How much you trust the biometric systems?
+Dummy ans: 1-5 trust rate.
+
+
+Objective-3
+
+Ob3. Do you face any problem during biometric systems data collection?
+Dummy ans: 1-yes, 2-no, 3-sometimes
+
+Ob3. How strong biometric systems are in security field?
+Dummy ans: 1-very strong, 2-strong, 3-neutral, 4-weak
